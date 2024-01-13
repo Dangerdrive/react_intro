@@ -1,0 +1,22 @@
+.Bottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #f8f9fa;
+	color: #616264;
+	text-align: center;
+	padding: 10px 0;
+	font-family: Arial, serif;
+	display: flex; /* Make the container a flex container */
+	flex-direction: column; /* Stack children vertically */
+	align-items: center; /* Center-align the flex items horizontally */
+	box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+	z-index: 1000; /* Ensure it stays above other content */
+	font-size: 1.5vmin;
+  }
+
+  .Bottom .BottomBottom {
+	font-size: 1.2vmin;
+	margin-top: 2px; /* Add space between the two spans */
+  }
