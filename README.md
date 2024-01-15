@@ -33,7 +33,7 @@ $ npm -v
 
 ## Creating a template
 
-$ npm create-react-app template_name
+$ npx create-react-app template_name
 
 # Getting Started with Create React App
 
